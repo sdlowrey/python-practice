@@ -30,7 +30,7 @@ def target_year(age_now, age_target, base_year=None):
 
 
 if __name__ == '__main__':
-    name = raw_input('Your name > ')
-    age = raw_input('Your age at the end of this year > ')
+    name = input('Your name > ')
+    age = input('Your age at the end of this year > ')
     year = target_year(int(age), 100)
     print(MSG_FMT.format(name=name, year=year))

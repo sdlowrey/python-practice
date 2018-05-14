@@ -1,6 +1,6 @@
 from unittest import TestCase, main
 
-from char_in import target_year
+from char_in.main import target_year
 
 
 class TestUserInput(TestCase):
