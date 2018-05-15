@@ -9,6 +9,6 @@ def is_prime(n: int) -> bool:
         for j in range(1, n):
             if i * j == n:
                 factors.update({i, j})
-    if len(factors) == 2:
-        return True
-    return False
+                if len(factors) > 2:
+                    return False
+    return True
