@@ -1,5 +1,4 @@
 """A very simple prime number library."""
-from typing import Set
 
 
 def is_prime(n: int) -> bool:
