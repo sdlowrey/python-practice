@@ -11,7 +11,7 @@ def render(template: Iterable, context: Dict) -> str:
     """
     with io.StringIO() as output:
         for line in template:
-            output.write(replace_variables(line, context))
+            output.write(replace_variables(line, context) + '\n')
         result = output.getvalue()
     return result
 
