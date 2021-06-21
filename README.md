@@ -5,7 +5,7 @@ Practice code for the language and tools, including CI/CD.
 
 # Requirements
 
-Python 3.6, tox, and pytest. Python 2 might be a fun side project later.
+Python 3.9, tox, and pytest.
 
 # Running the Tests
 
